@@ -12,9 +12,14 @@ The dataset includes three main components:
 Please note that due to limitations in data collection (for example some literature does not include info about Scival Topic or disciplinary category info or both), there may be some missing entries in the Scival Topic and literature disciplinary categorization datasets. Therefore, the number of entries in these datasets might be relatively smaller compared to the basic literature information dataset.
 
 Repository Contents
-1. basic info/: This directory contains the datasets of essential information about the literature.
-2. scival topic/: This directory includes the datasets of topic information (Scival Topic).
-3. disciplinary/: This directory contains literature disciplinary categorization info.
-
+basic info/: This directory contains the datasets of essential information about the literature.
+scival topic/: This directory includes the datasets of topic information (Scival Topic).
+disciplinary/: This directory contains literature disciplinary categorization info.
+Code/SNA.ipynb: An interactive Jupyter notebook for data processing and preliminary analysis.
+Code/subjectCrawler.py: Python script to fetch the disciplines associated with literature.
+Code/csvDeduplicate.py: Python script for merging files and deduplication.
+Code/scivalTopicCrawler.py: Python script to fetch topics associated with the literature.
+Graph/SNA Graph.gephi: Visualization and calculation using social network analysis.
 
 License
+This project is licensed under the MIT License.
